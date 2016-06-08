@@ -1,0 +1,31 @@
+body {
+    background: #fff;
+}
+
+.content {
+    width: 980px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.column {
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+}
+
+.column--float-right {
+    float: right;
+}
+
+.column--width-half {
+    width: 50%;
+}
+
+.column--width-third {
+    width: 33.333333%;
+}
+
+.column--width-two-thirds {
+    width: 66.666666%;
+}
