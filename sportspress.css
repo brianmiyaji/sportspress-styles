@@ -7,7 +7,7 @@
 .sp-template__caption {
     margin: 0;
     background: #fff;
-    border: 1px solid #ccc;
+    border: 1px solid #e5e5e5;
     margin-bottom: -1px;
     font-size: 20px;
     font-weight: 400;
@@ -18,7 +18,7 @@
 .sp-template__actions {
     margin: 0;
     background: #fff;
-    border: 1px solid #ccc;
+    border: 1px solid #e5e5e5;
     margin-top: -1px;
     padding: 10px 15px;
     overflow: hidden;
@@ -55,7 +55,7 @@
 
 .sp-table {
     border-collapse: collapse;
-    border: 1px solid #ccc;
+    border: 1px solid #e5e5e5;
     width: 100%;
 }
 
@@ -80,7 +80,7 @@
     line-height: 1.5;
     color: #333;
     background: #fff;
-    border: 1px solid #ccc;
+    border: 1px solid #e5e5e5;
     padding: 5px 10px;
     text-align: center;
 }
@@ -99,7 +99,24 @@
 .sp-table__cell--highlight,
 .sp-table__row--highlight .sp-table__cell {
     font-weight: 500;
-    background: #f2f2f2;
+    background: #f9f9f9;
+}
+
+.sp-table__value {
+    display: block;
+}
+
+.sp-table__value--size-large {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.sp-table__value--size-small {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #999;
 }
 
 .sp-table__link {

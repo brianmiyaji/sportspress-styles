@@ -28,9 +28,6 @@
                     </tr>
                 </thead>
 
-                <tfoot class="sp-table__footer">
-                </tfoot>
-
                 <tbody class="sp-table__body">
                     <tr class="sp-table__row">
                         <td class="sp-table__cell">1</td>
@@ -302,7 +299,40 @@
 
     <div class="column column--width-third column--float-right">
         <div class="sp-template">
-            <h2 class="sp-template__caption">June 2016</h2>
+            <h2 class="sp-template__caption">Countdown</h2>
+            <table class="sp-table">
+                <thead class="sp-table__header">
+                    <tr class="sp-table__row">
+                        <th class="sp-table__cell sp-table__cell--heading" colspan="4">Eagles vs Bluebirds</th>
+                    </tr>
+                </thead>
+
+                <tbody class="sp-table__body">
+                    <tr class="sp-table__row js-countdown" data-countdown="2016/07/02 16:30:00">
+                        <td class="sp-table__cell">
+                            <span class="sp-table__value sp-table__value--size-large">21</span>
+                            <small class="sp-table__value sp-table__value--size-small">days</small>
+                        </td>
+                        <td class="sp-table__cell">
+                            <span class="sp-table__value sp-table__value--size-large">12</span>
+                            <small class="sp-table__value sp-table__value--size-small">hours</small>
+                        </td>
+                        <td class="sp-table__cell">
+                            <span class="sp-table__value sp-table__value--size-large">34</span>
+                            <small class="sp-table__value sp-table__value--size-small">mins</small>
+                        </td>
+                        <td class="sp-table__cell">
+                            <span class="sp-table__value sp-table__value--size-large">56</span>
+                            <small class="sp-table__value sp-table__value--size-small">secs</small></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="column column--width-third column--float-right">
+        <div class="sp-template">
+            <h2 class="sp-template__caption">Event Calendar</h2>
             <table class="sp-table">
                 <thead class="sp-table__header">
                     <tr class="sp-table__row">
@@ -315,9 +345,6 @@
                         <th class="sp-table__cell sp-table__cell--heading" scope="column">S</th>
                     </tr>
                 </thead>
-
-                <tfoot class="sp-table__footer">
-                </tfoot>
 
                 <tbody class="sp-table__body">
                     <tr class="sp-table__row">
@@ -334,7 +361,7 @@
                         <td class="sp-table__cell sp-table__cell--highlight">7</td>
                         <td class="sp-table__cell">8</td>
                         <td class="sp-table__cell">9</td>
-                        <td class="sp-table__cell">10</td>
+                        <td class="sp-table__cell"><a class="sp-table__link" href="#">10</a></td>
                         <td class="sp-table__cell">11</td>
                     </tr>
 
@@ -370,11 +397,16 @@
             </table>
 
             <div class="sp-template__actions">
-                <a class="sp-template__action sp-template__action--previous" href="#">May</a>
-                <a class="sp-template__action sp-template__action--next" href="#">July</a>
+                <a class="sp-template__action sp-template__action--previous" href="#">&laquo; May</a>
+                <a class="sp-template__action sp-template__action--next" href="#">Jul &raquo;</a>
             </div>
         </div>
     </div>
 </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+<script src="strings.js"></script>
+<script src="libs/jquery.countdown.min.js"></script>
+<script src="sportspress.js"></script>
 </body>
 </html>
